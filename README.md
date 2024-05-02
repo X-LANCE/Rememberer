@@ -17,9 +17,10 @@ up.
 `launch.sh` is the launcher for the WikiHow experiments. The corresponding main
 program is `wikihow.py`. To launch the program,
 [Mobile-Env](https://github.com/X-LANCE/Mobile-Env) environment should be set
-up. Additionally, a tokenizer is required for `VhIoWrapper` wrapper, which can
-be downloaded from [Hugging Face](https://huggingface.co). The tokenizer of
-`bert-base-uncased` is ok.
+up. [WikiHow](https://huggingface.co/datasets/zdy023/WikiHow-taskset) task set
+v1.2 is used. Additionally, a tokenizer is required for `VhIoWrapper` wrapper,
+which can be downloaded from [Hugging Face](https://huggingface.co). The
+tokenizer of `bert-base-uncased` is ok.
 
 To launch test with static exemplars, you may add `--static` option in the
 script.
